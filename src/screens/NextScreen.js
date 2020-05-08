@@ -39,9 +39,9 @@ export default function NextScreen({navigation, route}) {
         <TouchableOpacity
           style={styles.button}
           onPress={() => {
-            navigation.navigate('Home');
+            navigation.navigate('Mytabs');
           }}>
-          <Text style={{color: '#fff'}}>Go To Home</Text>
+          <Text style={{color: '#fff'}}>Go To Home Tabs</Text>
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.buttonBack}
